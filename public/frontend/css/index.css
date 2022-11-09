@@ -22,11 +22,13 @@ a {
 .navbar-dark .navbar-nav .nav-item:hover{
   color:white;
   background-color:#FF4900 ;
-  border-radius: 5px;   
+  border-radius: 5px;
+   
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-  color: white;
+  color:white;
 }
+
 .active {
   background-color: #FF4900;
   color: white;
@@ -149,7 +151,7 @@ a {
 }
 
 /* media query for all */
-@media (max-width:701px) {
+@media (max-width:710px) {
   .img_text{
       position: absolute;
       top: 40%;
@@ -208,7 +210,7 @@ a {
     padding-left: 35px;
   }
 
-  .navbar-dark .navbar-nav .nav-link:hover{
+  .navbar-dark .navbar-nav .nav-link .nav-item:hover{
     background-color: unset;
     border-radius: unset;
     color: white;
@@ -233,18 +235,44 @@ a {
   .navbar-nav .nav-item:hover .nav-link {
     color:black;
   }
+  .navbar-dark .navbar-nav .nav-item:hover{
+    color:black;
+    background-color:white ;
+    border-radius: 0;
+  
+     
+  }
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color:black;
+  }
   .carousel-indicators {
     display: table !important;
     margin-left: 42% !important;
   }
+  .freelancer-pic{
+    position: relative;
+    width: 100%;
+  }
   .freelancer-pic img{
     height: 150px;
-    position: relative;
+    
   }
   .freelance-btn{
-    position: absolute;
-    top: 50%;
-    left: 35%;     
+     
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #555;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+     
   }
 }
 
@@ -325,7 +353,19 @@ a {
     top: 50%;
     left: 41%;   
   }
+  /* .navbar-dark .navbar-nav .nav-link:hover{
+    color:white;
+    background-color:#FF4900 ;
+    border-radius: 5px;
+     
+  }
+  .navbar-dark .navbar-nav .nav-item:hover{
+  color: white; */
+  /* border-radius: 5px;  */
+  /* border-radius: 5px; */
+  
 }
+
 
 /* Media Query For Skills Section */
 @media(min-width:1500px){

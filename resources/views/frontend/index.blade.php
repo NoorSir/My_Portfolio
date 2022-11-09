@@ -58,7 +58,7 @@
 					</div>
 				</div>
 				<div class="row "> 
-				<Button type ="submit"class="hire btn  col-4 col-sm-4 col-md-3"><a target="blank" class="nav-link"href="https://www.fiverr.com/zeeshan_noorr?up_rollout=true">Hire Me!</a></Button>
+				<Button type ="submit"class="hire btn  col-4 col-sm-4 col-md-3"><a target="blank" class="nav-link"href="https://www.fiverr.com/zeeshan_noorr">Hire Me!</a></Button>
 				<Button onclick="getId()" type ="submit"class="about btn col-4 col-sm-4 col-md-3 "> <a href="#about-myself">About Me</a> </Button>
 				</div>
 			</div>
@@ -296,8 +296,10 @@
 				<div class="freelance-content col-sm-12 col-md-12   col-lg-12 ">
 				<b class="text-center col-12">Have any Project in Mind?</b>
 				<h5 class="text-center col-12 col-sm-12 col-md-12   col-lg-12 ">I'm Available for Freelancing</h5>
-			</div> 
-				<Button type ="submit"class="mx-4 mx-sm-5 mx-md-5 mx-lg-5  hire freelance-btn btn  "> <a target="blank" href="https://www.fiverr.com/zeeshan_noorr?up_rollout=true">Hire Me!</a></Button>
+			    </div> 
+			  <div class="col-md-12 text-center">
+				<Button type ="submit"class="mx-4 mx-sm-5 mx-md-5  hire freelance-btn btn text-center "> <a target="blank" href="https://www.fiverr.com/zeeshan_noorr">Hire Me!</a></Button>
+				</div>
 			</div>
 		</div>
 	</div>
