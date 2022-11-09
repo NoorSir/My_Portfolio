@@ -25,9 +25,11 @@
 <link rel="mask-icon" href="{{url('frontend/images/150.png')}}">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-
+<link rel="stylesheet" href="{{ secure_asset('css/AdminLTE.min.css') }}">
 <link rel="stylesheet" href="{{url('frontend/css/index.css')}}">
-
+@production
+    <link rel="stylesheet" href="{{ secure_asset('css/AdminLTE.min.css') }}">
+@endproduction
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", function(){
 		
